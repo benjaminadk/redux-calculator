@@ -1,0 +1,8 @@
+export const NUMBER = 'number'
+export const OPERATOR = 'operator'
+export const EQUALS = 'equals'
+export const CLEAR_ALL = 'clear_all'
+export const CLEAR_LAST = 'clear_last'
+export const BACKSPACE = 'backspace'
+export const DECIMAL = 'decimal'
+export const NULL = 'null'

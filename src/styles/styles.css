@@ -1,0 +1,108 @@
+.root {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.calculatorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 400px;
+  height: 100px;
+  background-color: #666666;
+}
+
+.displayTop {
+  font-size: 14px;
+  font-family: 'Asul', sans-serif;
+  color: white;
+  padding-right: 10px;
+}
+
+.displayBottom {
+  font-size: 40px;
+  font-family: 'Asul', sans-serif;
+  color: white;
+  padding-right: 10px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  background-color: #666666;
+}
+
+.mainPadContainer {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  margin-left: 4px;
+}
+
+.numPadContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 400px;
+  margin-left: 4px;
+}
+
+.opsPadContainer {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100px;
+  margin-left: -2px;
+}
+
+.pad {
+  width: 90px;
+  height: 90px;
+  margin-right: 2px;
+  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Asul', sans-serif;
+  color: white;
+}
+
+.pad:hover {
+  background-color: #afafaf;
+  border: 2px solid lightgray;
+}
+
+.num {
+  background-color: black;
+  border: 2px solid black;
+  font-size: 24px;
+}
+
+.other {
+  background-color: #383838;
+  border: 2px solid #383838;
+  font-size: 24px;
+}
+
+.ops {
+  margin-bottom: 6px;
+  font-size: 30px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Asul', sans-serif;
+  font-size: 70px;
+}
