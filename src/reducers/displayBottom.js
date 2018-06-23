@@ -5,6 +5,7 @@ import {
   CLEAR_LAST,
   BACKSPACE,
   EQUALS,
+  NEGATE,
   DECIMAL
 } from '../actions/types'
 
@@ -38,6 +39,8 @@ export const displayBottomReducer = (state = initialState, action) => {
       return [0]
     case CLEAR_LAST:
       return [0]
+    case NEGATE:
+      return state
     case BACKSPACE:
       if (state.length === 1) {
         return [0]

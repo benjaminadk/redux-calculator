@@ -6,6 +6,7 @@ import {
   BACKSPACE,
   EQUALS,
   DECIMAL,
+  NEGATE,
   NULL
 } from './types'
 
@@ -73,4 +74,8 @@ export const decimalPressed = () => {
   } else {
     return { type: NULL }
   }
+}
+
+export const negatePressed = () => {
+  return { type: NEGATE }
 }

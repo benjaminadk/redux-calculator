@@ -35,7 +35,7 @@ const KeyPad = ({
             {n}
           </div>
         ))}
-        <div className="pad other">PM</div>
+        <div className="pad other">&#177;</div>
         <div className="pad num" onClick={() => handleNumberPressed(0)}>
           0
         </div>
